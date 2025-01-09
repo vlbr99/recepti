@@ -51,11 +51,12 @@
   background-color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 98%;
   transform: translate(-50%, -50%);
   border: 0 !important;
   border-radius: 4px;
   padding: 10px;
+  overflow-x: hidden;
   &::backdrop {
     background-color: royalblue;
   }
