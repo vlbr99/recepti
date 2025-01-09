@@ -2,6 +2,10 @@
 * {
   font-family: "Outfit", serif;
 }
+
+body {
+  overflow-x: hidden;
+}
 .search_wrapper {
   display: flex;
   align-items: center;
@@ -50,8 +54,8 @@
   height: 100%;
   background-color: white;
   position: absolute;
-  top: 50%;
-  left: 98%;
+  top: 98%;
+  left: 50%;
   transform: translate(-50%, -50%);
   border: 0 !important;
   border-radius: 4px;

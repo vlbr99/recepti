@@ -2,6 +2,9 @@
 * {
   font-family: "Outfit", serif;
 }
+body{
+  overflow-x: hidden;
+}
 .switch_component {
   display: flex;
   align-items: center;
